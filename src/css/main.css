@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 25px;
+    border-left: 5px solid white;
+}
+
+.heading{
+    font-weight: 300;
+}
+
+.heading span{
+    font-weight: 700;
+}
+
+.sideBlock{
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.sideBlock.mr-25{
+    margin-right: 25px;
+}
+
+.sideBlock h3{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.sideBlock h3 span{
+    font-weight: 300;
+}
+
+h3.score-heading, h3.moves-heading{
+    margin-bottom: 0;
+}
+
+h3.score-heading{
+    margin-top: 25px;
+}
+
+.cell{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0.5px 2px;
+}
+
+.row{
+    display: block;
+}
+
+.empty{
+    background-color: #efefef;
+}
+
+.non-empty.I{
+    background-color: #F92338;
+}
+
+.non-empty.J{
+    background-color: #C973FF;
+}
+
+.non-empty.L{
+    background-color: #1C76BC;
+}
+
+.non-empty.O{
+    background-color: #FEE356;
+}
+
+.non-empty.S{
+    background-color: #53D504;
+}
+
+.non-empty.T{
+    background-color: #36E0FF;
+}
+
+.non-empty.Z{
+    background-color: #F8931D;
+}
+
+.instructions{
+    margin-top: 25px;
+    color: #aaaaaa;
+}
+
+.instructions h3{
+    margin-bottom: 0;
+}
+
+.instructions p{
+    font-size: 10pt;
+    line-height: 1.4;
+}
+
+.console {
+    font-size: 10pt;
+    line-height: 1.4;
+}
+
+.instructions hr{
+    width: 30%;
+    margin-left: 0;
+}
+
+h3.gameOverBlock{
+    padding-top: 25px;
+}
+
+.genome h3{
+    margin-bottom: 0px;
+}
+
+.genomeProp{
+    color: #aaaaaa;
+}
